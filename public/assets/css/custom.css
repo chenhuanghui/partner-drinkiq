@@ -1,0 +1,68 @@
+body {
+    /* font-family: "Lexend"!important; */
+}
+
+h1, .h1 {
+    /* font-weight: 700 !important;
+    font-size: 2.6rem !important;
+    letter-spacing: 0 !important; */
+}
+
+.link:hover {
+    text-decoration: underline !important;
+    cursor: pointer !important;
+}
+.font-weight-bold {
+    /* font-weight: 400 !important; */
+}
+.main-content-wrapper {
+    margin-bottom: 5rem !important;
+}
+.footer {
+    padding-top: 5rem;
+}
+.notion-viewport {
+    display: none;
+}
+.notion-page {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.notion-page img {
+    border-radius: .375rem!important;
+    pointer-events: none;
+    cursor: default;
+}
+
+.fe-copy{
+    cursor: pointer !important;
+}
+
+.btn-radius-2x {
+    border-radius: 1rem !important;
+    /* padding: .125rem 1rem !important; */
+}
+
+.btn.selected {
+    background-color: #12263f !important;
+    color: white;
+}
+
+.card-summary-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* grid-gap: 20px; */
+}
+.rounded-2x {
+    border-radius: 1rem !important;
+    /* padding: .125rem 1rem !important; */
+}
+
+@media (min-width:768px) {
+    .card-summary-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 20px;
+    }    
+}
